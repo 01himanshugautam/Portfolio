@@ -7,7 +7,7 @@
 body {
     background-image: url('../images/laptop.jpg');
     background-repeat: no-repeat;
-    background-size: 100% 900px;
+    background-size: 100% 720px;
     background-color: rgba(0, 0, 0, 0.823);
     background-blend-mode: overlay;
     color: white;
@@ -70,7 +70,7 @@ main {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-top: 300px;
+    margin-top: 150px;
 }
 
 h1 {
@@ -79,16 +79,32 @@ h1 {
 }
 
 #about {
-    height: 500px;
+    height: 350px;
 }
 
-#about .name {
+.img {
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.img img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.name {
     width: 0ch;
     overflow: hidden;
     white-space: nowrap;
-    animation: text 6s steps(16) infinite;
+    animation: text 8s steps(16) infinite;
     border-right: 3px solid white;
     font-size: 30px;
+    letter-spacing: 1.75px;
+    word-spacing: 3px;
 }
 
 @keyframes text {
@@ -105,11 +121,62 @@ h1 {
 }
 
 #education {
-    height: 500px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 20px;
 }
 
 #projects {
-    height: 500px;
+    /* height: 700px; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.container {
+    margin-top: 30px;
+}
+
+.heading {
+    font-size: 30px;
+}
+
+.row {
+    margin: 10px;
+    /* height: 100px; */
+    width: 700px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.37);
+}
+
+.project-heading {
+    font-size: 20px;
+}
+
+.project-decription {
+    padding-left: 10px;
+    margin-top: 10px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+}
+
+.marks {
+    padding: 6px 0px 0px 10px;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    color: rgb(121, 119, 117);
+}
+
+.marks span {
+    padding-top: 2px;
+}
+
+.project {
+    padding: 20px;
 }
 
 #skills {
