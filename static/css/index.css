@@ -74,7 +74,8 @@ main {
 }
 
 h1 {
-    color: wheat;
+    color: white;
+    font-size: 20px;
 }
 
 #about {
