@@ -14,7 +14,6 @@ body {
 }
 
 header {
-    background-image: url('static/images/laptop.jpg');
     background-repeat: no-repeat;
     width: 100vw;
     /* height: 60px; */
@@ -28,6 +27,16 @@ nav {
     justify-content: center;
     align-items: center;
     flex-basis: auto;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.sticky+.main {
+    padding-top: 60px;
 }
 
 .nav-items {
@@ -70,6 +79,24 @@ h1 {
 
 #about {
     height: 500px;
+}
+
+#about .name {
+    width: 0ch;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: text 6s steps(16) infinite;
+    border-right: 3px solid white;
+    font-size: 30px;
+}
+
+@keyframes text {
+    0% {
+        width: 0ch;
+    }
+    50% {
+        width: 28ch;
+    }
 }
 
 #experience {
