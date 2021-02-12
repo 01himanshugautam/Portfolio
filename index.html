@@ -6,18 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Profile</title>
     <link rel="stylesheet" href="static/css/index.css">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
     <header class="header" id="navbar">
         <nav class="nav">
             <div class="nav-items active">
-                <a href="#about">About</a>
+                <a href="#profile">Home</a>
             </div>
-            <div class="nav-items">
-                <a href="#experience">Experience</a>
-            </div>
+
             <div class="nav-items">
                 <a href="#education">Education</a>
             </div>
@@ -28,7 +26,7 @@
                 <a href="#skills">Skills</a>
             </div>
             <div class="nav-items">
-                <a href="#contact">Contact</a>
+                <a href="#contact">Contact Me</a>
             </div>
         </nav>
     </header>
@@ -39,14 +37,22 @@
             <div class="header-area">
                 <h2>I'M a <span id="animate"></span></h2>
             </div>
+            <div class="details">
+                <div class="phone">
+                    <a href="https://+917505981810" target="_blank_">
+                        <i class="fa fa-phone"></i></a>
+                </div>
+                <div class="github">
+                    <a href="https://github.com/01himanshugautam" target="_blank_"><i class="fa fa-github"></i>
+                    </a>
+                </div>
+                <div class="linkedin">
+                    <a href="https://www.linkedin.com/in/himanshu-gautam-578b48193/" target="_blank_"> <i class="fa fa-linkedin"></i></a>
+                </div>
+
+            </div>
         </div>
 
-
-        <!-- <div id="about">
-            <div>
-                <h1 class="">About me</h1>
-            </div>
-        </div> -->
         <div id="education">
             <h2 class="heading">Education</h2>
             <div class="container">
@@ -145,64 +151,68 @@
         <div id="skills">
             <h2 class="heading">Skills</h2>
             <div class="skills">
-                <div class="skills-name">
-                    <img src="static/images/myphoto.jpg">
-                    <h3> Machine Learning</h3>
+                <div class="left">
+                    <div class="skills-name">
+                        <img src="static/images/">
+                        <h3>Machine Learning</h3>
+                    </div>
+                    <div class="skills-name">
+                        <img src="static/images/">
+                        <h3>Deep Learning</h3>
+                    </div>
+                    <div class="skills-name">
+                        <img src="static/images/">
+                        <h3>Tensorflow</h3>
+                    </div>
+                    <div class="skills-name">
+                        <img src="static/images/">
+                        <h3>Django</h3>
+                    </div>
+                    <div class="skills-name">
+                        <img src="static/images/">
+                        <h3>Flask</h3>
+                    </div>
                 </div>
-                <div class="skills-name">
-                    <img src="static/images/myphoto.jpg">
-                    <h3>Deep Learning</h3>
-                </div>
-                <div class="skills-name">
-                    <img src="static/images/myphoto.jpg">
-                    <h3>Python</h3>
-                </div>
-                <div class="skills-name"> <img src="static/images/myphoto.jpg">
-                    <h3> Flutter</h3>
+                <div class="right">
+                    <div class="skills-name">
+                        <img src="static/images/">
+                        <h3>Python</h3>
+                    </div>
+                    <div class="skills-name"> <img src="static/images/">
+                        <h3> Flutter</h3>
+                    </div>
+                    <div class="skills-name">
+                        <img src="static/images/">
+                        <h3>Computer Vision</h3>
+                    </div>
+                    <div class="skills-name">
+                        <img src="static/images/">
+                        <h3>Computer Vision</h3>
+                    </div>
+                    <div class="skills-name">
+                        <img src="static/images/">
+                        <h3>HTML CSS JAVASCRIPT BOOTSTRAP</h3>
+                    </div>
+
                 </div>
             </div>
         </div>
         <div id="contact">
             <h2 class="heading">Contact</h2>
             <div class="contact">
-                <div class="details">
-                    <div>
-                        <h3>Address</h3>
-                    </div>
-                    <div>
-                        <h3>Phone Number</h3>
-                    </div>
-                    <div>
-                        <h3>
-                            GitHub
-                        </h3>
-                    </div>
-                    <div>
-                        <h3>
-                            Linkedin
-                        </h3>
-                    </div>
-                    <div>
-                        <h3>Instagram</h3>
-                    </div>
-                    <div>
-                        <h3>Facebook</h3>
-                    </div>
-                </div>
-                <div class="details">
-                    <form action="" method="post">
-                        <label for="fname"> Name</label>
-                        <input type="text" id="fname" name="Full Name" placeholder="Full Name..">
+                <form action="" method="post">
+                    <label for="fname"> Name</label>
+                    <input type="text" id="fname" name="Full Name" placeholder="Full Name..">
 
-                        <label for="lname">Email</label>
-                        <input type="email" id="lname" name="Email" placeholder="Email..">
+                    <label for="lname">Email</label>
+                    <input type="email" id="lname" name="Email" placeholder="Email..">
 
-                        <label for="fname">Message</label>
-                        <textarea rows="4" cols="50" name="Message" class="msg" placeholder="Message..">
+                    <label for="fname">Message</label>
+                    <textarea rows="4" cols="50" name="Message" class="msg" placeholder="Message..">
                            </textarea>
-                        <input type="submit" value="Submit">
-                    </form>
-                </div>
+                    <input type="submit" value="Submit">
+                </form>
+
             </div>
         </div>
 
