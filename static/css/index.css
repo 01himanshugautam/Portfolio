@@ -13,6 +13,9 @@ body {
     color: white;
 }
 
+
+/* Header Code Start Here */
+
 header {
     background-color: rgba(0, 0, 0, 0.864);
     width: 100vw;
@@ -56,6 +59,12 @@ a {
     color: red;
 }
 
+
+/* Header Code End Here */
+
+
+/* Main Content Code Start Here */
+
 main {
     display: flex;
     justify-content: center;
@@ -69,10 +78,8 @@ h1 {
     font-size: 20px;
 }
 
-#about {
-    height: 350px;
-    margin-top: 50px;
-}
+
+/* Profile Code Start Here */
 
 #profile {
     display: flex;
@@ -124,9 +131,48 @@ h1 {
     color: chartreuse;
 }
 
-#experience {
-    height: 500px;
+.details {
+    display: flex;
 }
+
+.details div {
+    margin-top: 20px;
+}
+
+.details i {
+    color: #fff;
+    font-size: 20px;
+    /* padding-right: 10px; */
+}
+
+.details a {
+    color: #fff;
+    cursor: pointer;
+}
+
+.resume {
+    margin-top: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 62px;
+    width: 190px;
+    background-color: white;
+    border-radius: 8px;
+    color: black;
+}
+
+.resume i {
+    color: rgb(70, 135, 5);
+    font-size: 20px;
+}
+
+
+/* Profile Code End Here */
+
+
+/* Education and Project Code Start Here */
 
 #education {
     padding-top: 50px;
@@ -152,16 +198,16 @@ h1 {
     margin-top: 30px;
 }
 
-.heading {
-    font-size: 30px;
-}
-
 .row {
     margin: 10px;
     /* height: 100px; */
     width: 700px;
     border-radius: 5px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.37);
+}
+
+.heading {
+    font-size: 30px;
 }
 
 .project-heading {
@@ -193,6 +239,12 @@ h1 {
     padding: 20px;
 }
 
+
+/* Education and Project Code End Here */
+
+
+/* Skill Code Start Here */
+
 #skills {
     /* height: 500px; */
     display: flex;
@@ -202,6 +254,55 @@ h1 {
     padding: 10px;
     border: 1px solid rgb(101, 101, 101);
 }
+
+.skills {
+    /* margin: 20px 20px 0px 20px; */
+    display: flex;
+    flex-wrap: wraps;
+}
+
+.left {
+    width: 340px;
+    margin: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.37);
+}
+
+.right {
+    width: 340px;
+    margin: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.37);
+}
+
+.skills-name {
+    margin-bottom: 10px;
+    padding: 10px;
+    display: flex;
+    /* width: 220px; */
+    height: 60px;
+    align-items: center;
+    flex-direction: row;
+    /* border-radius: 5px; */
+    border-bottom: 1px solid white;
+}
+
+.skills img {
+    /* margin-top: 10px; */
+    height: 40px!important;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.skills h3 {
+    color: #fff;
+    margin-left: 10px;
+    font-size: 15px;
+}
+
+
+/* Skill Code End Here */
+
+
+/* Contact Code Start Here */
 
 #contact {
     display: flex;
@@ -223,25 +324,6 @@ h1 {
     border-radius: 5px;
     /* background-color: #2a2727cd; */
     padding: 20px
-}
-
-.details {
-    display: flex;
-}
-
-.details div {
-    margin-top: 20px;
-}
-
-.details i {
-    color: #fff;
-    font-size: 20px;
-    /* padding-right: 10px; */
-}
-
-.details a {
-    color: #fff;
-    cursor: pointer;
 }
 
 label {
@@ -294,53 +376,11 @@ input[type=submit]:hover {
     background-color: #45a049;
 }
 
-h3 {
-    color: black;
-}
 
-.skills {
-    /* margin: 20px 20px 0px 20px; */
-    display: flex;
-    flex-wrap: wraps;
-}
+/* Skill Code End Here */
 
-.left {
-    width: 340px;
-    margin: 10px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.37);
-}
 
-.right {
-    width: 340px;
-    margin: 10px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.37);
-}
-
-.skills-name {
-    font-size: 25px;
-    margin-bottom: 10px;
-    padding: 10px;
-    display: flex;
-    /* width: 220px; */
-    height: 60px;
-    align-items: center;
-    flex-direction: row;
-    /* border-radius: 5px; */
-    border-bottom: 1px solid white;
-}
-
-.skills img {
-    /* margin-top: 10px; */
-    height: 40px!important;
-    width: 40px;
-    border-radius: 50%;
-}
-
-.skills h3 {
-    color: #fff;
-    margin-left: 10px;
-    font-size: 20px;
-}
+/* Responsive Code Here */
 
 @media screen and (max-width: 600px) {
     nav {
@@ -351,6 +391,9 @@ h3 {
     }
     a {
         padding: 10px 12px 10px 8px;
+    }
+    .resume {
+        /* margin-right: 45px; */
     }
     .container {
         margin-top: 20px;
@@ -368,6 +411,9 @@ h3 {
     .project-decription {
         padding-left: 10px;
         margin-top: 10px;
+        font-size: 8px;
+    }
+    .marks {
         font-size: 8px;
     }
     .skills {
