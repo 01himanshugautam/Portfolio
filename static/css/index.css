@@ -350,7 +350,7 @@ h3 {
         font-size: 15px;
     }
     a {
-        padding: 10px 10px 10px 0px;
+        padding: 10px 12px 10px 8px;
     }
     .container {
         margin-top: 20px;
@@ -403,5 +403,8 @@ h3 {
     }
     .contact label {
         font-size: 10!important;
+    }
+    i {
+        padding-left: 20px;
     }
 }
