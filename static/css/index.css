@@ -130,7 +130,6 @@ h1 {
 
 #education {
     padding-top: 50px;
-    /* margin-top: 50px; */
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -145,6 +144,8 @@ h1 {
     align-items: center;
     flex-direction: column;
     margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid rgb(101, 101, 101);
 }
 
 .container {
@@ -198,6 +199,8 @@ h1 {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    padding: 10px;
+    border: 1px solid rgb(101, 101, 101);
 }
 
 #contact {
@@ -266,6 +269,7 @@ select {
     border: 1px solid #ccc;
     color: white;
     border-radius: 4px;
+    align-items: flex-start;
     box-sizing: border-box;
     background-color: transparent;
 }
@@ -296,6 +300,7 @@ h3 {
 .skills {
     /* margin: 20px 20px 0px 20px; */
     display: flex;
+    flex-wrap: wraps;
 }
 
 .left {
@@ -334,4 +339,68 @@ h3 {
     color: #fff;
     margin-left: 10px;
     font-size: 20px;
+}
+
+@media screen and (max-width: 600px) {
+    nav {
+        height: 35px;
+    }
+    .nav-items {
+        font-size: 15px;
+    }
+    a {
+        padding: 10px 10px 10px 0px;
+    }
+    .container {
+        margin-top: 20px;
+    }
+    .heading {
+        font-size: 15px;
+    }
+    .row {
+        width: 310px;
+    }
+    .project-heading {
+        font-size: 15px;
+        color: #fff;
+    }
+    .project-decription {
+        padding-left: 10px;
+        margin-top: 10px;
+        font-size: 8px;
+    }
+    .skills {
+        /* margin: 20px 20px 0px 20px; */
+        display: inline;
+        flex-wrap: wraps;
+    }
+    .left {
+        width: 320px;
+    }
+    .right {
+        width: 320px;
+    }
+    .skills-name {
+        font-size: 15px;
+    }
+    .skills img {
+        /* margin-top: 10px; */
+        height: 40px!important;
+        width: 40px;
+        border-radius: 50%;
+    }
+    .skills h3 {
+        color: #fff;
+        margin-left: 10px;
+        font-size: 12px;
+    }
+    .contact {
+        margin-left: 8px;
+        height: 400px;
+        width: 350px;
+        padding: 10px
+    }
+    .contact label {
+        font-size: 10!important;
+    }
 }
