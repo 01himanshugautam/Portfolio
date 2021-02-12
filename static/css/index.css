@@ -207,18 +207,19 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 500px;
+    /* height: 500px; */
     flex-direction: column;
+    margin-top: 50px;
 }
 
 .contact {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 30px;
+    /* margin-top: 30px; */
     margin-left: 30px;
     height: 400px;
-    width: 560px;
+    width: 750px;
     border-radius: 5px;
     /* background-color: #2a2727cd; */
     padding: 20px
@@ -304,13 +305,13 @@ h3 {
 }
 
 .left {
-    width: 250px;
+    width: 340px;
     margin: 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.37);
 }
 
 .right {
-    width: 250px;
+    width: 340px;
     margin: 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.37);
 }
