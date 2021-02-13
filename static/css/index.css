@@ -62,6 +62,10 @@ a {
 
 /* Header Code End Here */
 
+.hover:hover {
+    color: red;
+}
+
 
 /* Main Content Code Start Here */
 
@@ -86,7 +90,7 @@ h1 {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin-bottom: 18rem;
+    margin-bottom: 5rem;
     margin-top: 20px;
 }
 
@@ -383,6 +387,9 @@ input[type=submit]:hover {
 /* Responsive Code Here */
 
 @media screen and (max-width: 600px) {
+    body {
+        background-size: 100% 730px;
+    }
     nav {
         height: 35px;
     }
@@ -415,6 +422,9 @@ input[type=submit]:hover {
     }
     .marks {
         font-size: 8px;
+    }
+    #education {
+        margin-top: 22px;
     }
     .skills {
         /* margin: 20px 20px 0px 20px; */
