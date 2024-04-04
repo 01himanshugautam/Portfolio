@@ -26,9 +26,7 @@ export default function Experienced({
         className="col-md-3 overflow-hidden rounded col-3"
       >
         <div className="mt-3">
-          <h3 className="title h6 mt-0 text-uppercase ">
-            PROFESSIONAL SUMMARY
-          </h3>
+          <h3 className="title h6 mt-0 text-uppercase ">SUMMARY</h3>
           <p>
             Experienced software engineer skilled in full-stack development,
             proficient in Node.js, Flutter, and Laravel. Known for delivering
@@ -164,23 +162,25 @@ export default function Experienced({
             <ul className="mt-2 normal-font pl-4">
               <li className="mt-1">
                 Developed and deployed a multi-region, multilingual website
-                using Node.js, MySQL, and Docker from scratch.
+                using Node.js, MySQL, and Docker from scratch, driving a
+                significant surge in website traffic.
               </li>
               <li className="mt-1">
-                Created easy-to-use APIs for a retail POS system, improving
-                order management, product search, and reporting
+                Collaborated on the creation of user-friendly APIs for a retail
+                POS system, significantly reducing customer complaints.
               </li>
               <li className="mt-1">
-                Implemented Redis caching, reducing database queries by 75% and
-                improving API performance by 30%.
+                Introduced Redis caching, resulting in a substantial improvement
+                in API performance and customer satisfaction.
               </li>
               <li className="mt-1">
-                Implemented Nginx load balancing for Node.js, enhancing
-                performance by 70% for over 5000 concurrent users.
+                Orchestrated Nginx load balancing for Node.js, significantly
+                enhancing performance for over 5000 concurrent users and
+                boosting user retention.
               </li>
               <li className="mt-1">
-                Implemented Kapture CRM software, enhancing user experience and
-                streamlining operations.
+                Engineered the integration of Kapture CRM software, resulting in
+                a noticeable increase in customer engagement.
               </li>
             </ul>
           </div>
@@ -201,29 +201,30 @@ export default function Experienced({
 
             <ul className="mt-2 normal-font pl-4">
               <li className="mt-1">
-                Implemented the transition from monolithic to microservices
-                architecture, enhancing system agility and performance.
+                Spearheaded the transition from monolithic to microservices
+                architecture, resulting in a dramatic decrease in system
+                downtime.
               </li>
 
               <li className="mt-1">
                 Designed a flexible communication system for seamless messaging
-                via texts, emails, and notifications.
+                via texts, emails, and notifications, leading to a significant
+                increase in user engagement.
               </li>
 
               <li className="mt-1">
-                Implemented the upgrade of App Component Version with dynamic
-                data retrieval and rendering, enhancing functionality and user
-                experience.
+                Upgraded App Component Version with dynamic data retrieval and
+                rendering, markedly enhancing functionality and user experience.
               </li>
               <li className="mt-1">
-                Implemented front-end logic using JavaScript and Next.js,
-                improving user interaction by 50%.
+                Crafted front-end logic using JavaScript and Next.js, resulting
+                in a remarkable improvement in user interaction and reduced
+                bounce rate.
               </li>
 
               <li className="mt-1">
-                Designed loyalty points feature, achieving a 20% increase in
-                user engagement through natural reward system-inspired approach,
-                enhancing customer retention.
+                Devised a loyalty points feature, achieving notable increases in
+                user engagement and customer retention.
               </li>
             </ul>
           </div>
@@ -244,22 +245,22 @@ export default function Experienced({
 
             <ul className="mt-2 normal-font pl-4">
               <li>
-                Implemented the development of an educational app for Dexito,
-                demonstrating strong programming skills and a dedication to
-                education.
+                Authored an educational app for Dexito, garnering significant
+                downloads within a short period.
               </li>
               <li className="mt-1">
-                Enhanced app performance by 25% and boosted user satisfaction by
-                15% through code optimization and UI refinement.
+                Enhanced app performance and user satisfaction through code
+                optimization and UI refinement, leading to a decrease in app
+                uninstallations
               </li>
               <li className="mt-1">
-                Integrated Rest API, reducing loading times by 40% and improving
-                data accuracy by 50%.
+                Integrated Rest API, significantly reducing loading times and
+                improving data accuracy, resulting in higher user retention.
               </li>
               <li className="mt-1">
                 Implemented optimized state management techniques, leading to a
-                35% decrease in app crashes and a 25% increase in overall user
-                experience.
+                noticeable decrease in app crashes and an overall improvement in
+                user experience
               </li>
             </ul>
           </div>
@@ -280,17 +281,18 @@ export default function Experienced({
 
             <ul className="mt-2 normal-font pl-4">
               <li>
-                Led the development of the "Hybrid Analog and Digital
-                Electronics Lab" simulation in partnership with MJP Rohilkhand
-                University and Virtual Lab Development at IIT Roorkee.
+                Directed the development of the "Hybrid Analog and Digital
+                Electronics Lab" simulation in collaboration with MJP Rohilkhand
+                University and Virtual Lab Development at IIT Roorkee, resulting
+                in increased student engagement.
               </li>
               <li className="mt-1">
-                Conducted user testing and feedback sessions to iterate on
-                interface designs, resulting in an optimized user experience.
+                Conducted user testing and feedback sessions to refine interface
+                designs, significantly improving user retention.
               </li>
               <li className="mt-1">
                 Designed and implemented user-friendly interfaces, enhancing
-                overall user experience.
+                overall user satisfaction.
               </li>
             </ul>
           </div>

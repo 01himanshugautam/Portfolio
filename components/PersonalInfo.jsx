@@ -7,20 +7,7 @@ export default function PersonalInfo({ print }) {
             <div className="text-md-left">
               <div className="d-flex">
                 <div className="ml-2">
-                  <h1 className="name mb">
-                    Himanshu Gautam{" "}
-                    <p className="hide-skills">
-                      react js ,Apache Spark, Node.js architecture, HTML5,
-                      node.js package management,pm2, css , scalable Node.js
-                      applications, git, front-end fontend, back-end
-                      backend,server side,Express.js,Server Side,database
-                      database schema,sql,Back-End Web Development,no sql ,
-                      server-side, Networks, back-end services , ui, api, rest
-                      api RestAPI, production, 3 year, 2 year ,5 year, web
-                      stacks, problem-solving aptitude, testable, reusable, and
-                      efficient code., microservices, microservices,
-                    </p>
-                  </h1>
+                  <h1 className="name mb">Himanshu Gautam</h1>
                   <p className=" h5 m	text-muted">Software Engineer</p>
                 </div>
               </div>
