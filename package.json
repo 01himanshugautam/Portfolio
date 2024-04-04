@@ -1,0 +1,19 @@
+{
+  "name": "portfolio",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.1348.0",
+    "iron-session": "^6.3.1",
+    "next": "10.2.0",
+    "react": "17.0.2",
+    "react-device-detect": "^2.2.3",
+    "react-dom": "17.0.2",
+    "react-draggable": "^4.4.6"
+  }
+}
