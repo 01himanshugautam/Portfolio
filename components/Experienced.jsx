@@ -103,6 +103,8 @@ export default function Experienced({
           </ul>
         </div>
 
+        <br />
+
         <div className="mt-4">
           <h3 className="title h6  text-uppercase">Personal Info.</h3>
           <div className="">
