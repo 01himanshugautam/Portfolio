@@ -1,4 +1,4 @@
-export default function Graphics({ martrimonial }) {
+export default function Graphics() {
   return (
     <div className={"container-shape shape-skew "}>
       <span className="circle"> </span>

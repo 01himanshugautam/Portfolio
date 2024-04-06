@@ -4,14 +4,14 @@ export default function Education() {
       <h3 className="title h6 mt-4 text-uppercase ">Education</h3>
       <div className="mt-2 normal-font" style={{ fontSize: "14px" }}>
         <div className="mb-2">
-          <div class="d-flex justify-content-between">
+          <div className="d-flex justify-content-between">
             <b>&bull; Mahatma Jyotiba Phule Rohilkhand University</b>
             <div>
               <b>-</b> Bareilly
             </div>
           </div>
 
-          <div class="mb-2 d-flex justify-content-between">
+          <div className="mb-2 d-flex justify-content-between">
             <span>
               <b>-</b> B.Tech (Computer Science)
             </span>
@@ -20,14 +20,14 @@ export default function Education() {
         </div>
 
         <div className="mb-2">
-          <div class="d-flex justify-content-between">
+          <div className="d-flex justify-content-between">
             <b>&bull; Global Inter College, Narayanpur</b>
             <div>
               <b>-</b> Rampur
             </div>
           </div>
 
-          <div class="mb-2 d-flex justify-content-between">
+          <div className="mb-2 d-flex justify-content-between">
             <span>
               <b>-</b> XII
             </span>
@@ -36,13 +36,13 @@ export default function Education() {
         </div>
 
         <div className="mb-2">
-          <div class="d-flex justify-content-between">
+          <div className="d-flex justify-content-between">
             <b>&bull; R P S Higher Secondary School</b>
             <div>
               <b>-</b> Rampur
             </div>
           </div>
-          <div class="mb-2 d-flex justify-content-between">
+          <div className="mb-2 d-flex justify-content-between">
             <span>
               <b>-</b> X
             </span>

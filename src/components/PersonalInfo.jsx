@@ -1,4 +1,5 @@
-export default function PersonalInfo({ print }) {
+import Image from "next/image"
+export default function PersonalInfo() {
   return (
     <>
       <div className="row">
@@ -73,11 +74,13 @@ export default function PersonalInfo({ print }) {
                 </span>
 
                 <span className="mt-3  border-right px-2 	">
-                  <img
+                  <Image
+                    src="https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png"
+                    alt=""
                     height={22}
                     width={22}
-                    src="https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png"
                   />
+
                   <span className="text-monospace normal-font">
                     <a
                       target="blank"

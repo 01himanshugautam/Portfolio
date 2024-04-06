@@ -152,10 +152,10 @@ export default function RightSide() {
 
           <ul className="mt-2 normal-font pl-4">
             <li>
-              Directed the development of the "Hybrid Analog and Digital
-              Electronics Lab" simulation in collaboration with MJP Rohilkhand
-              University and Virtual Lab Development at IIT Roorkee, resulting
-              in increased student engagement.
+              Directed the development of the &quot;Hybrid Analog and Digital
+              Electronics Lab&quot; simulation in collaboration with MJP
+              Rohilkhand University and Virtual Lab Development at IIT Roorkee,
+              resulting in increased student engagement.
             </li>
             <li className="mt-1" style={{ fontSize: "14px" }}>
               Conducted user testing and feedback sessions to refine interface
