@@ -1,19 +1,20 @@
 import Experienced from "@/components/Experienced"
 import Graphics from "@/components/Graphics"
 import PersonalInfo from "@/components/PersonalInfo"
+import Link from "next/link"
 
 export default function Home() {
   return (
     <main>
-      {/* <div className="position-fixed top-0 left-0 w-100">
+      <div className="position-fixed top-0 left-0 w-100">
         <div className="container">
           <div className="p-4 d-flex justify-content-end">
-            <button type="button" onClick={() => console.log("Clicked")}>
-              Dashboard
-            </button>
+            <Link href="/prints" className="btn btn-light">
+              Print
+            </Link>
           </div>
         </div>
-      </div> */}
+      </div>
       <Graphics className="hide-print" />
       <div className="container">
         <div className="row">
