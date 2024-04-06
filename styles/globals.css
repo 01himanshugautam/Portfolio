@@ -204,7 +204,7 @@
 
 .title::after {
   content: "";
-  height: 1px;
+  /* height: 1px; */
   background-color: #e5e5e5;
   position: absolute;
   top: 50%;

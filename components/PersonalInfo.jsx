@@ -23,7 +23,7 @@ export default function PersonalInfo({ print }) {
                       <path d="M18.48 22.926l-1.193.658c-6.979 3.621-19.082-17.494-12.279-21.484l1.145-.637 3.714 6.467-1.139.632c-2.067 1.245 2.76 9.707 4.879 8.545l1.162-.642 3.711 6.461zm-9.808-22.926l-1.68.975 3.714 6.466 1.681-.975-3.715-6.466zm8.613 14.997l-1.68.975 3.714 6.467 1.681-.975-3.715-6.467z" />
                     </svg>
                   </span>
-                  <span className="text-monospace">
+                  <span className="text-monospace smaller">
                     <a className="text-dark normal-font" href="tel:7505981810">
                       7505981810{" "}
                     </a>{" "}
@@ -88,6 +88,15 @@ export default function PersonalInfo({ print }) {
                     </a>
                   </span>
                 </span>
+              </div>
+
+              <div className="mt-1 pt-2">
+                <p>
+                  Passionate about coding since I was young, I quickly pick up
+                  new tech skills. I love startups and enjoy building things
+                  from scratch. I thrive in fast-paced environments where
+                  creativity and innovation are valued.
+                </p>
               </div>
             </div>
           </div>
