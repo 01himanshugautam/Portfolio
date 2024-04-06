@@ -27,7 +27,7 @@ export default function PersonalInfo() {
                   <span className="text-monospace smaller">
                     <a className="text-dark normal-font" href="tel:7505981810">
                       7505981810{" "}
-                    </a>{" "}
+                    </a>
                   </span>
                 </span>
 

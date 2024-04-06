@@ -9,7 +9,7 @@ export default function Home() {
     <div>
       <Head>
         <title>Himanshu_Gautam_Resume</title>
-      </Head>{" "}
+      </Head>
       <main>
         <div className="position-fixed top-0 left-0 w-100">
           <div className="container">

@@ -6,7 +6,7 @@ import "../style/Home.module.css"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata = {
-  title: "Himanshu Gautam Resume",
+  title: "Himanshu_Gautam_Resume",
   description: "Himanshu Gautam Resume",
 }
 
