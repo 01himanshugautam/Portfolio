@@ -1,16 +1,23 @@
 "use client"
 import Experienced from "@/components/Experienced"
 import PersonalInfo from "@/components/PersonalInfo"
+import Head from "next/head"
 import { redirect } from "next/navigation"
 import { useEffect } from "react"
 export default function PrintComponent() {
+  var print = true
   useEffect(() => {
-    window.print()
-    redirect("/")
+    if (print) {
+      print = false
+      window.print()
+      redirect("/")
+    }
   }, [])
-
   return (
     <div>
+      <Head>
+        <title>Himanshu_Gautam_Resume</title>
+      </Head>
       <main>
         <div className="page mt-0 ">
           <div className="personal-info"></div>
