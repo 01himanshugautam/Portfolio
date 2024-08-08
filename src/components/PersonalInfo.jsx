@@ -4,12 +4,14 @@ export default function PersonalInfo() {
     <>
       <div className="row">
         <div className="col-md-30">
-          <div className="d-flex  justify-content-between align-items-center mt-0 ">
+          <div className="d-flex justify-content-between align-items-center mt-0 ">
             <div className="text-md-left">
               <div className="d-flex">
                 <div className="ml-2">
                   <h1 className="name mb">Himanshu Gautam</h1>
-                  <p className=" h5 m	text-muted">Software Engineer</p>
+                  <p className=" h5 m	text-muted">
+                    Software Development Engineer
+                  </p>
                 </div>
               </div>
               <div className="mt-1 pl-2">

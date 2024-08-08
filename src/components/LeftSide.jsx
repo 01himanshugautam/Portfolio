@@ -10,13 +10,14 @@ export default function LeftSide() {
     >
       <Education />
       <Skills />
+      {/* <FreelanceExperience /> */}
       <Achievement />
 
       <div className="mt-4">
         <h3 className="title h6  text-uppercase">Personal Info.</h3>
         <div className="">
           <div className="d-flex t justify-content-between">
-            <span className="small">Language</span>
+            <span className="small">Language: </span>
             <span className="normal-font" style={{ fontSize: "14px" }}>
               <b> &bull; Hindi &bull; English</b>
             </span>

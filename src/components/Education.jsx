@@ -13,7 +13,7 @@ export default function Education() {
 
           <div className="mb-2 d-flex justify-content-between">
             <span>
-              <b>-</b> B.Tech (Computer Science)
+              <b>- B.Tech - 70% </b>
             </span>
             <span>2018-2022</span>
           </div>
@@ -29,7 +29,7 @@ export default function Education() {
 
           <div className="mb-2 d-flex justify-content-between">
             <span>
-              <b>-</b> XII
+              <b>- XII - 74%</b>
             </span>
             <span>2016-2018</span>
           </div>
@@ -44,7 +44,7 @@ export default function Education() {
           </div>
           <div className="mb-2 d-flex justify-content-between">
             <span>
-              <b>-</b> X
+              <b>- X - 78%</b>
             </span>
             <span>2014-2016</span>
           </div>

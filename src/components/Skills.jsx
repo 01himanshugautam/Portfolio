@@ -5,20 +5,25 @@ export default function Skills() {
       <div className="mt-2">
         <ul
           className="mt-2 normal-font pl-3 skill-point"
-          style={{ fontSize: "13px" }}
+          style={{ fontSize: "14px" }}
         >
           <li className="mb-1">
-            <b>Backend</b>: NodeJs, Laravel, TypeScript ,JavaScript Dart, MySQL,
-            PSQL, MongoDb, Firebase
+            <b>Backend</b>: NodeJs, Golang, Laravel, TypeScript, JavaScript,
+            Dart
           </li>
           <li className="mb-1">
-            <b>Infrastructure</b>: AWS, Docker, Kafka, RabbitMq ,System Design
+            <b>Frontend</b>: NextJS, Flutter, HTML, CSS, JavaScript, Bootstrap
           </li>
           <li className="mb-1">
-            <b>Frontend</b>: NextJS, HTML, CSS, JavaScript, Bootstrap
+            <b>Databases</b>: MySQL, PSQL, Mongo DB, Firebase
+          </li>
+          <li className="mb-1">
+            <b>Infrastructure</b>: AWS (EC2, S3, RDS), Docker, Kafka, RabbitMq,
+            System Design
           </li>
           <li>
-            <b>Others Skill</b>: Jenkins, CI/CD, GitLab, Bitbucket,GitHub
+            <b>Others Skill</b>: Jenkins, New Relic. CI/CD, GitLab, Bitbucket,
+            GitHub,
           </li>
         </ul>
       </div>

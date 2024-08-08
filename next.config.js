@@ -12,14 +12,4 @@ module.exports = {
       },
     ],
   },
-  // async redirects() {
-  //   return [
-  //     {
-  //       source: '/print',
-  //       destination: '/',
-  //       permanent: true,
-  //     },
-
-  //   ]
-  // },
-}
+};
