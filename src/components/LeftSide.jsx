@@ -1,6 +1,7 @@
 import Achievement from "./Achievement"
 import Education from "./Education"
 import Skills from "./Skills"
+import FreelanceExperience from "./FreelanceExperience"
 
 export default function LeftSide() {
   return (
@@ -10,7 +11,7 @@ export default function LeftSide() {
     >
       <Education />
       <Skills />
-      {/* <FreelanceExperience /> */}
+      <FreelanceExperience />
       <Achievement />
 
       <div className="mt-4">

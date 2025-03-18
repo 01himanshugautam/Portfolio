@@ -5,7 +5,6 @@ export default function RightSide() {
   return (
     <div className="col-md-7 overflow-hidden col-8 ">
       <WorkExperience />
-      <FreelanceExperience />
     </div>
   )
 }
